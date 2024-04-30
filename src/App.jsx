@@ -46,9 +46,9 @@ const App = () => {
       )}
       <div className="h-[700px] relative">
         <video
-          autoPlay={true}
+          autoPlay=""
           loop
-          muted={true}
+          muted
           onLoadedData={handleVideoLoaded}
           onError={handleVideoError}
           ref={vidRef}
