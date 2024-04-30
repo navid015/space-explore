@@ -43,7 +43,7 @@ const App = () => {
         <video
           autoPlay={true}
           loop
-          muted
+          muted={true}
           onLoadedData={handleVideoLoaded}
           onError={handleVideoError}
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
