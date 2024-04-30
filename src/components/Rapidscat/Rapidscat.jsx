@@ -20,7 +20,7 @@ const Rapidscat = () => {
                 data-aos-delay="100"
                 className="text-sky-800 uppercase"
               >
-                Moon mission
+                Mission Moon
               </p>
               <h1
                 data-aos="fade-up"
