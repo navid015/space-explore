@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-primary">
       <section className="max-w-[1200px] mx-auto text-white">
         <div className=" grid md:grid-cols-3 py-5">
-          {/* first column */}
+      
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3">
               Be Ready To Grow
@@ -30,7 +30,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          {/* Second column */}
+       
 
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
             <div className="">

@@ -33,7 +33,7 @@ const ServiceData = [
 const HeroCard = () => {
   return (
     <>
-      <section className="bg-primary">
+      <section className="bg-primary w-full">
         <div className="container pt-0">
           <div className="min-h-[100px]">
             <div>
