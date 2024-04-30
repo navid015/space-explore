@@ -21,10 +21,6 @@ const App = () => {
     });
   });
 
-  const handleVideoLoaded = () => {
-    setVideoLoaded(true);
-  };
-
   return (
     <div className="">
       
@@ -38,7 +34,6 @@ const App = () => {
           autoPlay
           loop
           muted
-          onLoadedData={handleVideoLoaded}
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
           <source src={BgVideo} type="video/mp4" />
