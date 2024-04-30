@@ -21,13 +21,31 @@ const App = () => {
     });
   });
 
+  const handleVideoLoaded = () => {
+    console.log("Video loaded successfully");
+    setVideoLoaded(true);
+  };
+
+  const handleVideoError = (error) => {
+    console.error("Video error:", error);
+    // Handle the error here, such as displaying a message to the user
+  };
+
   return (
     <div className="">
+      
+      {!videoLoaded && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black/100 backdrop-blur-lg z-50 flex justify-center items-center">
+          <div className="spinner"></div>
+        </div>
+      )}
       <div className="h-[700px] relative">
         <video
-          autoPlay
+          autoPlay={true}
           loop
           muted
+          onLoadedData={handleVideoLoaded}
+          onError={handleVideoError}
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
           <source src={BgVideo} type="video/mp4" />
