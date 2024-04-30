@@ -22,12 +22,12 @@ const App = () => {
   return (
     <div className="">
       <div className="h-[700px] relative">
-        {/* Preloading the video */}
+        {/* Lazy load and preload video metadata */}
         <video
           autoPlay
           loop
           muted
-          preload="auto"
+          preload="metadata"
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
           <source src={BgVideo} type="video/mp4" />
