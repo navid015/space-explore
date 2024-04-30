@@ -16,7 +16,7 @@ const Navbar = () => {
       >
         <div className="container">
           <div className="relative flex justify-between items-center">
-            <div className="flex items-center gap-4 text-white font-bold text-2xl z-10 relative">
+            <div className="flex items-center gap-4 text-white font-bold text-3xl font-serif z-10 relative">
               <img src={Logo} alt="" className="w-10" />
               <span>MYSTERY OF SPACE</span>
             </div>
