@@ -11,25 +11,25 @@ const Rapidscat = () => {
             <div className="space-y-3 xl:pr-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800 ">
               <p
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="100"
                 className="text-sky-800 uppercase"
               >
                 Mars mission
               </p>
               <h1
                 data-aos="fade-up"
-                data-aos-delay="500"
+                data-aos-delay="100"
                 className="uppercase text-5xl"
               >
                 journey to mars
               </h1>
-              <p data-aos="fade-up" data-aos-delay="700">
+              <p data-aos="fade-up" data-aos-delay="100">
                 Human landing on Mars marks a monumental leap in space exploration, promising profound scientific insights and potential colonization. It represents the pinnacle of human ingenuity, courage, and collaborative effort. From technological advancements to physiological challenges, the endeavor pushes the boundaries of human achievement, inspiring future generations and fostering international cooperation toward unraveling the mysteries of the cosmos.
               </p>
               <button
                 data-aos="fade-up"
-                data-aos-delay="900"
-                className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
+                data-aos-delay="100"
+                className="bg-blue-400 text-white hover:text-sky-800, hover:text-black hover:font-bold px-4 py-1 rounded-md duration-200"
               >
                 View Details
               </button>
