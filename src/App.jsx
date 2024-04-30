@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
@@ -12,6 +12,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
   React.useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -19,15 +21,25 @@ const App = () => {
     });
   });
 
+  const handleVideoLoaded = () => {
+    setVideoLoaded(true);
+  };
+
   return (
     <div className="">
+      
+      {!videoLoaded && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black/60 backdrop-blur-md z-50 flex justify-center items-center">
+          <div className="spinner"></div>
+        </div>
+      )}
       <div className="h-[700px] relative">
-        {/* Lazy load and preload video metadata */}
+        {/* Video with event listener to handle loaded event */}
         <video
           autoPlay
           loop
           muted
-          preload="metadata"
+          onLoadedData={handleVideoLoaded}
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
           <source src={BgVideo} type="video/mp4" />
