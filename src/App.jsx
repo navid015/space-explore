@@ -23,12 +23,6 @@ const App = () => {
 
   return (
     <div className="">
-      
-      {!videoLoaded && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black/100 backdrop-blur-lg z-50 flex justify-center items-center">
-          <div className="spinner"></div>
-        </div>
-      )}
       <div className="h-[700px] relative">
         <video
           autoPlay
