@@ -12,8 +12,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-  const vidRef = useRef();
 
   React.useEffect(() => {
     AOS.init({
