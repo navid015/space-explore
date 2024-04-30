@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
@@ -15,10 +15,6 @@ const App = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const vidRef = useRef();
 
-  useEffect(() => {
-    vidRef.current.muted = false;
-  }, []);
-
   React.useEffect(() => {
     AOS.init({
       duration: 1200,
@@ -26,32 +22,14 @@ const App = () => {
     });
   });
 
-  const handleVideoLoaded = () => {
-    console.log("Video loaded successfully");
-    setVideoLoaded(true);
-  };
-
-  const handleVideoError = (error) => {
-    console.error("Video error:", error);
-    // Handle the error here, such as displaying a message to the user
-  };
-
   return (
     <div className="">
 
-      {!videoLoaded && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black/100 backdrop-blur-lg z-50 flex justify-center items-center">
-          <div className="spinner"></div>
-        </div>
-      )}
       <div className="h-[700px] relative">
         <video
           autoPlay=""
           loop
           muted
-          onLoadedData={handleVideoLoaded}
-          onError={handleVideoError}
-          ref={vidRef}
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
           <source src={BgVideo} type="video/mp4" />
