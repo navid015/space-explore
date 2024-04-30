@@ -34,7 +34,7 @@ const Rapidscat = () => {
               </p>
               <button
                 data-aos="fade-up"
-                data-aos-delay="900"
+                data-aos-delay="100"
                 className="bg-blue-400 text-white hover:text-sky-800, hover:text-black hover:font-bold px-4 py-1 rounded-md duration-400"
               >
                 View Details

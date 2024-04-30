@@ -34,7 +34,7 @@ const Rapidscat = () => {
                 View Details
               </button>
             </div>
-            <div data-aos="zoom-in">
+            <div data-aos="zoom-in" data-aos-delay="100">
               <img
                 src={satelitImg}
                 alt=""

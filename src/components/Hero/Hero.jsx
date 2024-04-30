@@ -16,7 +16,7 @@ const Hero = () => {
             <button
               data-aos="fade-up"
               data-aos-delay="400"
-              className="bg-blue-400 text-white hover:bg-blue-700 px-6 py-1 rounded-md cursor-pointer"
+              className="bg-blue-400 text-white hover:bg-blue-700 px-6 py-2 rounded-md cursor-pointer transition-colors duration-300"
             >
               LEARN MORE
             </button>
