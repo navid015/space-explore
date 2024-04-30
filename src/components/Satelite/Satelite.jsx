@@ -14,29 +14,24 @@ const Rapidscat = () => {
                 data-aos-delay="300"
                 className="text-sky-800 uppercase"
               >
-                our mission
+                Mars mission
               </p>
               <h1
                 data-aos="fade-up"
                 data-aos-delay="500"
                 className="uppercase text-5xl"
               >
-                Rapidscat
+                journey to mars
               </h1>
               <p data-aos="fade-up" data-aos-delay="700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae reprehenderit expedita corporis, non doloremque.
-                Consequatur consectetur quisquam qui sunt. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eos molestiae reprehenderit
-                expedita corporis, non doloremque. Consequatur consectetur
-                quisquam qui sunt.
+                Human landing on Mars marks a monumental leap in space exploration, promising profound scientific insights and potential colonization. It represents the pinnacle of human ingenuity, courage, and collaborative effort. From technological advancements to physiological challenges, the endeavor pushes the boundaries of human achievement, inspiring future generations and fostering international cooperation toward unraveling the mysteries of the cosmos.
               </p>
               <button
                 data-aos="fade-up"
                 data-aos-delay="900"
                 className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
               >
-                View All
+                View Details
               </button>
             </div>
             <div data-aos="zoom-in">

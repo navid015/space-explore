@@ -5,7 +5,7 @@ import { MdCall, MdMessage } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 ">
+    <div className="bg-primary">
       <section className="max-w-[1200px] mx-auto text-white">
         <div className=" grid md:grid-cols-3 py-5">
           {/* first column */}
@@ -71,11 +71,11 @@ const Footer = () => {
                   </div>
                   <div className="flex items-center gap-3 mt-3">
                     <MdMessage />
-                    <p>navid_uuu@hotmail.com</p>
+                    <p>ny_uuu@hotmail.com</p>
                   </div>
                   <div className="flex items-center gap-3 mt-3">
                     <MdCall />
-                    <p>+1 (337)-852-8146</p>
+                    <p>+1 (337)-***-****</p>
                   </div>
                 </div>
               </div>
@@ -88,13 +88,13 @@ const Footer = () => {
               @copyright 2024 navid yousuf
             </span>
             <div className="flex items-center justify-center gap-4 mb-4">
-              <a href="#">
+              <a href="https://www.instagram.com/navid_yousuf/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-4xl" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/navid.yousuf/"target="_blank" rel="noopener noreferrer" >
                 <FaFacebook className="text-4xl" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/navid-yousuf-2455756a/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-4xl" />
               </a>
             </div>

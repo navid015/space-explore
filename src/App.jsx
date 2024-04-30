@@ -35,7 +35,7 @@ const App = () => {
       <HeroCard />
       <Rapidscat />
       <Satelite />
-      {/* <Footer /> */}
+      <Footer />
       <Footer5 />
     </div>
   );

@@ -20,29 +20,24 @@ const Rapidscat = () => {
                 data-aos-delay="300"
                 className="text-sky-800 uppercase"
               >
-                our mission
+                Moon mission
               </p>
               <h1
                 data-aos="fade-up"
                 data-aos-delay="500"
                 className="uppercase text-5xl"
               >
-                Rapidscat
+                Journey to Moon
               </h1>
               <p data-aos="fade-up" data-aos-delay="700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae reprehenderit expedita corporis, non doloremque.
-                Consequatur consectetur quisquam qui sunt. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eos molestiae reprehenderit
-                expedita corporis, non doloremque. Consequatur consectetur
-                quisquam qui sunt.
+                The Apollo 11 mission, led by Neil Armstrong, Buzz Aldrin, and Michael Collins, marked humanity's historic first landing on the moon on July 20, 1969. Armstrong famously declared, "That's one small step for man, one giant leap for mankind," as he stepped onto the lunar surface. This milestone achievement symbolized the incredible capabilities of human ingenuity, exploration, and determination in reaching beyond Earth's boundaries.
               </p>
               <button
                 data-aos="fade-up"
                 data-aos-delay="900"
                 className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
               >
-                View All
+                View Details
               </button>
             </div>
           </div>
