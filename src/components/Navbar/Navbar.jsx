@@ -21,7 +21,7 @@ const Navbar = () => {
               <span>MYSTERY OF SPACE</span>
             </div>
             <div className="text-white sm:hidden">
-              <button onClick={toggleMenu} className="z-50">
+              <button onClick={toggleMenu}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -60,8 +60,8 @@ const Navbar = () => {
 
 
       {isOpen && (
-        <div className="fixed top-16 right-0 left-0 w-full py-4 z-40">
-          <ul className="text-white font-bold text-l  text-right mr-4">
+        <div className="absolute top-28 right-0 left-60 py-4 bg-black/80 z-[10]">
+          <ul className="text-sky-300 font-bold text-lg text-right mr-3">
             <li>
               <a href="#">Solar System</a>
             </li>
