@@ -36,6 +36,7 @@ const App = () => {
 
       <div className="h-[700px] relative">
         <video
+          id='vid'
           autoPlay
           loop
           muted
@@ -45,6 +46,9 @@ const App = () => {
         >
           <source src={BgVideo} type="video/mp4" />
         </video>
+        <script>
+          document.getElementById('vid').play();
+        </script>
         <Navbar />
         <Hero />
       </div>
